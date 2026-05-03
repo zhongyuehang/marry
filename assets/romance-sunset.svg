@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="粉色晚霞和爱心配图">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe8f1"/>
+      <stop offset=".55" stop-color="#ffd9b8"/>
+      <stop offset="1" stop-color="#bdebdc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="56" fill="url(#sky)"/>
+  <circle cx="400" cy="336" r="126" fill="#fff0a8"/>
+  <path d="M0 522 C122 452 238 558 376 498 C504 442 614 482 800 398 L800 800 L0 800Z" fill="#8bd99b"/>
+  <path d="M0 596 C148 532 250 618 398 560 C548 500 650 544 800 492 L800 800 L0 800Z" fill="#5ebc85"/>
+  <g fill="none" stroke="#fff7fb" stroke-width="16" stroke-linecap="round">
+    <path d="M118 648 C244 604 350 686 508 626 C598 592 660 606 724 574"/>
+    <path d="M74 704 C194 666 294 728 414 694 C518 664 606 674 704 640"/>
+  </g>
+  <path d="M248 222 C248 174 316 176 316 224 C316 282 248 314 248 314 C248 314 180 282 180 224 C180 176 248 174 248 222Z" fill="#ef5b83" opacity=".86"/>
+  <path d="M574 218 C574 186 622 186 622 220 C622 258 574 278 574 278 C574 278 526 258 526 220 C526 186 574 186 574 218Z" fill="#fff7fb" opacity=".88"/>
+</svg>

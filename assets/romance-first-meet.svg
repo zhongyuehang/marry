@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="第一次见面时害羞心动的配图">
+  <rect width="800" height="800" rx="56" fill="#fff7fb"/>
+  <circle cx="628" cy="142" r="72" fill="#fff0a8"/>
+  <path d="M78 626 C194 548 286 648 418 574 C518 518 604 548 722 482 L722 800 L78 800Z" fill="#ffe4ef"/>
+  <g stroke="#6b4a4f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="174" y="218" width="452" height="330" rx="34" fill="#ffffff"/>
+    <path d="M188 250 L400 410 L612 250" fill="none"/>
+    <path d="M188 520 L332 388" fill="none" opacity=".45"/>
+    <path d="M612 520 L468 388" fill="none" opacity=".45"/>
+  </g>
+  <path d="M400 292 C400 244 470 244 470 296 C470 356 400 390 400 390 C400 390 330 356 330 296 C330 244 400 244 400 292Z" fill="#ef5b83"/>
+  <g fill="#ef9fbd" opacity=".9">
+    <circle cx="250" cy="172" r="14"/>
+    <circle cx="292" cy="146" r="10"/>
+    <circle cx="528" cy="188" r="12"/>
+    <circle cx="558" cy="226" r="8"/>
+  </g>
+  <text x="400" y="650" text-anchor="middle" font-size="42" font-weight="800" fill="#ef9fbd" font-family="Comic Sans MS, Arial, sans-serif">shy but in love</text>
+</svg>

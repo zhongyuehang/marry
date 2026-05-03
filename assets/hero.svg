@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400" role="img" aria-label="小新穿西装拿玫瑰向 Lulu 新娘求婚">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7fb"/>
+      <stop offset=".58" stop-color="#ffe8f1"/>
+      <stop offset="1" stop-color="#fff7df"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1400" fill="url(#bg)"/>
+  <text x="450" y="205" text-anchor="middle" font-size="78" font-weight="800" fill="#ef9fbd" opacity=".78" font-family="Comic Sans MS, Arial, sans-serif">Always in love</text>
+  <path d="M432 328 C432 286 490 286 490 330 C490 382 432 410 432 410 C432 410 374 382 374 330 C374 286 432 286 432 328Z" fill="#f05f75" filter="url(#soft)"/>
+  <path d="M552 392 C552 372 584 372 584 394 C584 420 552 432 552 432 C552 432 520 420 520 394 C520 372 552 372 552 392Z" fill="#fff" stroke="#efb4c9" stroke-width="8"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(96 586)">
+      <path d="M78 34 C22 58 18 126 62 158 C44 230 84 306 180 306 C282 306 314 220 284 156 C322 118 310 58 252 36 C214 2 120 4 78 34Z" fill="none" stroke="#efa5c1" stroke-width="30"/>
+      <circle cx="162" cy="126" r="86" fill="#ffc1a6" stroke="#211716" stroke-width="8"/>
+      <circle cx="70" cy="118" r="30" fill="#ffc1a6" stroke="#211716" stroke-width="7"/>
+      <path d="M84 64 C124 16 218 28 246 62 C198 42 134 48 84 64Z" fill="#080606" stroke="#080606" stroke-width="7"/>
+      <path d="M80 104 C110 80 142 78 164 104" fill="none" stroke="#080606" stroke-width="13"/>
+      <path d="M172 104 C206 82 238 84 258 112" fill="none" stroke="#080606" stroke-width="13"/>
+      <circle cx="124" cy="136" r="19" fill="#080606"/>
+      <circle cx="220" cy="138" r="20" fill="#080606"/>
+      <circle cx="130" cy="132" r="6" fill="#fff"/>
+      <circle cx="214" cy="134" r="6" fill="#fff"/>
+      <path d="M178 176 C192 188 214 188 228 174" fill="none" stroke="#7b3633" stroke-width="5"/>
+      <path d="M78 220 L248 220 L264 418 L54 418Z" fill="#b9c8cf" stroke="#211716" stroke-width="8"/>
+      <path d="M130 220 L162 270 L194 220" fill="#fff" stroke="#211716" stroke-width="6"/>
+      <circle cx="160" cy="304" r="9" fill="#fff" stroke="#211716" stroke-width="5"/>
+      <path d="M68 418 L112 418 L106 506 L58 506Z" fill="#ffc1a6" stroke="#211716" stroke-width="8"/>
+      <path d="M202 418 L246 418 L254 506 L204 506Z" fill="#ffc1a6" stroke="#211716" stroke-width="8"/>
+      <path d="M50 506 L112 506" stroke="#6f97ae" stroke-width="13"/>
+      <path d="M198 506 L264 506" stroke="#6f97ae" stroke-width="13"/>
+
+      <g transform="translate(-24 126)">
+        <path d="M96 48 C74 6 96 -30 130 -20 C164 -30 186 8 164 48 C142 88 130 106 130 106 C130 106 118 88 96 48Z" fill="#f0678e" stroke="#7f2e4c" stroke-width="6"/>
+        <circle cx="74" cy="82" r="28" fill="#ef5b83" stroke="#7f2e4c" stroke-width="6"/>
+        <circle cx="126" cy="70" r="30" fill="#f48aa8" stroke="#7f2e4c" stroke-width="6"/>
+        <circle cx="164" cy="94" r="28" fill="#ef5b83" stroke="#7f2e4c" stroke-width="6"/>
+        <path d="M86 120 L54 190 L126 154 L170 210 L154 128" fill="#ffb8d0" stroke="#7f2e4c" stroke-width="6"/>
+        <path d="M54 64 L20 42 M174 62 L212 42" stroke="#277c62" stroke-width="10"/>
+      </g>
+    </g>
+
+    <g transform="translate(368 735)">
+      <path d="M40 38 C92 0 188 12 204 106 C232 108 254 134 250 166 C246 214 204 232 164 212 C130 252 56 240 42 188 C-4 180 -16 116 22 88 C18 68 24 50 40 38Z" fill="none" stroke="#efa5c1" stroke-width="25"/>
+      <path d="M54 66 C94 28 164 42 178 112 C208 114 228 142 218 174 C204 218 142 204 124 166 C102 210 46 204 34 166 C22 130 32 88 54 66Z" fill="#fff" stroke="#211716" stroke-width="8"/>
+      <circle cx="88" cy="132" r="7" fill="#211716"/>
+      <circle cx="148" cy="132" r="7" fill="#211716"/>
+      <path d="M104 160 C122 174 142 172 156 154" fill="none" stroke="#211716" stroke-width="8"/>
+      <path d="M74 196 L176 196 L198 308 L52 308Z" fill="#f06d98" stroke="#211716" stroke-width="8"/>
+      <path d="M110 210 C130 236 154 236 172 210" fill="none" stroke="#c92e66" stroke-width="9"/>
+    </g>
+
+    <g transform="translate(610 590)">
+      <path d="M30 26 C84 -12 198 -16 266 38 C332 88 330 238 262 318 C208 382 96 378 38 306 C-28 226 -22 82 30 26Z" fill="none" stroke="#efa5c1" stroke-width="30"/>
+      <path d="M82 20 C142 -10 222 -4 274 48 C236 74 210 128 210 210 L62 212 C58 132 48 70 82 20Z" fill="#fff" stroke="#5a4a48" stroke-width="7"/>
+      <circle cx="144" cy="144" r="80" fill="#ffd7ca" stroke="#5a4a48" stroke-width="7"/>
+      <path d="M68 90 C108 48 172 52 216 92 C170 74 112 76 68 90Z" fill="#6a3a2e"/>
+      <path d="M74 86 C76 122 88 148 122 164 C118 126 126 100 154 76" fill="#6a3a2e"/>
+      <path d="M146 74 L146 146" stroke="#6a3a2e" stroke-width="8"/>
+      <circle cx="110" cy="150" r="14" fill="#171313"/>
+      <circle cx="178" cy="150" r="14" fill="#171313"/>
+      <circle cx="114" cy="146" r="5" fill="#fff"/>
+      <circle cx="174" cy="146" r="5" fill="#fff"/>
+      <path d="M126 190 C146 204 172 198 184 178" fill="none" stroke="#7c4440" stroke-width="6"/>
+      <circle cx="86" cy="184" r="5" fill="#ef9fbd"/>
+      <circle cx="204" cy="184" r="5" fill="#ef9fbd"/>
+      <g fill="#fff" stroke="#5a4a48" stroke-width="5">
+        <circle cx="76" cy="70" r="13"/><circle cx="104" cy="54" r="13"/><circle cx="136" cy="48" r="13"/><circle cx="168" cy="52" r="13"/><circle cx="198" cy="66" r="13"/>
+      </g>
+      <path d="M72 218 C32 270 24 356 18 470 L286 470 C272 350 254 270 214 218 C172 260 116 260 72 218Z" fill="#fff" stroke="#5a4a48" stroke-width="8"/>
+      <path d="M142 244 C122 300 114 370 98 470 M152 244 C176 302 186 372 202 470" fill="none" stroke="#b9b2b0" stroke-width="5"/>
+      <path d="M88 246 C42 272 26 318 42 362" fill="none" stroke="#5a4a48" stroke-width="8"/>
+      <path d="M214 246 C258 242 288 212 308 176" fill="none" stroke="#5a4a48" stroke-width="8"/>
+      <g transform="translate(220 168)">
+        <circle cx="30" cy="44" r="18" fill="#365e92" stroke="#5a4a48" stroke-width="5"/>
+        <circle cx="58" cy="54" r="18" fill="#c24757" stroke="#5a4a48" stroke-width="5"/>
+        <circle cx="40" cy="78" r="18" fill="#8e4b92" stroke="#5a4a48" stroke-width="5"/>
+        <path d="M26 96 L-10 152 M54 92 L28 158" stroke="#3c8063" stroke-width="8"/>
+      </g>
+    </g>
+  </g>
+</svg>

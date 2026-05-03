@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="672" viewBox="0 0 1200 672" role="img" aria-label="求婚戒指和花束配图">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7fb"/>
+      <stop offset=".55" stop-color="#ffe3ee"/>
+      <stop offset="1" stop-color="#fff6d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="672" rx="42" fill="url(#bg)"/>
+  <text x="600" y="104" text-anchor="middle" font-size="78" font-weight="800" fill="#ef9fbd" opacity=".86" font-family="Comic Sans MS, Arial, sans-serif">Always in love</text>
+  <path d="M600 178 C600 126 676 126 676 180 C676 244 600 280 600 280 C600 280 524 244 524 180 C524 126 600 126 600 178Z" fill="#ef5b83"/>
+  <g stroke="#5b3b42" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 448 C336 360 430 420 506 348" fill="none" stroke="#7fc991"/>
+    <circle cx="226" cy="444" r="48" fill="#ef5b83"/>
+    <circle cx="286" cy="398" r="50" fill="#ff8ca9"/>
+    <circle cx="350" cy="438" r="46" fill="#d9527e"/>
+    <path d="M284 496 L228 602 L348 548 L424 626 L390 488" fill="#ffb6cf"/>
+    <ellipse cx="812" cy="444" rx="128" ry="94" fill="none" stroke="#f2b33d" stroke-width="34"/>
+    <path d="M754 198 L870 198 L918 268 L812 350 L706 268Z" fill="#fff"/>
+    <path d="M754 198 L812 350 L870 198 M706 268 L918 268" fill="none" stroke="#93d6f2" stroke-width="10"/>
+  </g>
+</svg>

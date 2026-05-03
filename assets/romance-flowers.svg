@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="玫瑰和心形贴纸配图">
+  <rect width="800" height="800" rx="56" fill="#fff7fb"/>
+  <path d="M108 618 C210 542 306 646 424 574 C520 516 608 548 718 478 L718 800 L108 800Z" fill="#ffe4ef"/>
+  <g stroke="#5b3b42" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M398 492 C368 374 404 286 504 218" fill="none"/>
+    <path d="M400 490 C316 408 256 334 218 230" fill="none"/>
+    <path d="M396 498 C440 398 514 326 626 286" fill="none"/>
+    <path d="M272 360 C214 340 186 296 196 236 C260 240 304 280 312 340Z" fill="#8fd2a4"/>
+    <path d="M472 386 C528 336 584 328 636 366 C604 422 544 438 488 410Z" fill="#7bc992"/>
+    <circle cx="214" cy="196" r="58" fill="#f15d86"/>
+    <circle cx="276" cy="230" r="62" fill="#ff8ca9"/>
+    <circle cx="202" cy="284" r="60" fill="#ef4d7e"/>
+    <circle cx="512" cy="190" r="62" fill="#f15d86"/>
+    <circle cx="580" cy="242" r="58" fill="#ff8ca9"/>
+    <circle cx="496" cy="288" r="56" fill="#ef4d7e"/>
+    <circle cx="636" cy="268" r="48" fill="#d64c74"/>
+  </g>
+  <path d="M392 154 C392 104 464 106 464 158 C464 220 392 252 392 252 C392 252 320 220 320 158 C320 106 392 104 392 154Z" fill="#f06482" opacity=".9"/>
+  <path d="M596 126 C596 98 638 98 638 128 C638 164 596 182 596 182 C596 182 554 164 554 128 C554 98 596 98 596 126Z" fill="#f7b8cc" opacity=".9"/>
+</svg>

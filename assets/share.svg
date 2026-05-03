@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="小新给 Lulu 的求婚信">
+  <rect width="600" height="600" rx="52" fill="#fff7fb"/>
+  <text x="300" y="108" text-anchor="middle" font-size="58" font-weight="800" fill="#ef9fbd" font-family="Comic Sans MS, Arial">Always in love</text>
+  <path d="M300 176 C300 132 362 132 362 178 C362 232 300 262 300 262 C300 262 238 232 238 178 C238 132 300 132 300 176Z" fill="#f05f75"/>
+  <g stroke="#211716" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="174" cy="300" r="64" fill="#ffc1a6"/>
+    <path d="M124 254 C154 218 214 220 244 256 C200 242 162 244 124 254Z" fill="#080606"/>
+    <path d="M94 374 L242 374 L260 540 L74 540Z" fill="#b9c8cf"/>
+    <g transform="translate(72 294)">
+      <circle cx="26" cy="34" r="20" fill="#ef5b83"/>
+      <circle cx="62" cy="22" r="22" fill="#f48aa8"/>
+      <circle cx="96" cy="38" r="20" fill="#ef5b83"/>
+    </g>
+    <path d="M286 324 C320 286 386 296 396 368 C430 368 448 396 438 426 C424 472 366 458 346 420 C324 466 270 454 260 420 C250 382 260 340 286 324Z" fill="#fff"/>
+    <circle cx="330" cy="390" r="7" fill="#211716"/>
+    <circle cx="374" cy="390" r="7" fill="#211716"/>
+    <circle cx="456" cy="300" r="64" fill="#ffd7ca"/>
+    <path d="M402 252 C438 214 500 220 532 258 C486 240 444 242 402 252Z" fill="#6a3a2e"/>
+    <path d="M396 374 C354 424 342 476 336 560 L574 560 C562 478 548 424 510 374 C474 404 432 404 396 374Z" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="小新小白和 Lulu 一起看夕阳">
+  <rect width="320" height="320" rx="24" fill="#ffe8f1"/>
+  <circle cx="248" cy="72" r="44" fill="#ffe36f" stroke="#f0a82f" stroke-width="6"/>
+  <path d="M0 226 C70 194 126 238 192 208 C248 182 282 192 320 174 L320 320 L0 320Z" fill="#a7dfb5"/>
+  <g stroke="#211716" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="72" cy="146" r="36" fill="#ffc1a6"/>
+    <path d="M44 122 C62 100 94 100 112 122 C88 116 64 116 44 122Z" fill="#080606"/>
+    <path d="M38 190 L112 190 L122 264 L28 264Z" fill="#b9c8cf"/>
+    <path d="M124 150 C150 124 198 132 204 184 C226 184 238 202 234 222 C228 254 184 250 170 222 C154 254 118 248 112 220 C106 196 112 166 124 150Z" fill="#fff"/>
+    <circle cx="150" cy="190" r="5" fill="#211716"/>
+    <circle cx="184" cy="190" r="5" fill="#211716"/>
+    <path d="M160 210 C172 222 184 220 192 208"/>
+    <circle cx="248" cy="152" r="38" fill="#ffd7ca"/>
+    <path d="M216 124 C238 102 268 104 290 126 C264 118 238 118 216 124Z" fill="#6a3a2e"/>
+    <path d="M214 190 C190 222 184 254 180 292 L306 292 C300 252 292 220 270 190 C252 204 232 204 214 190Z" fill="#fff"/>
+  </g>
+  <path d="M54 286 C114 268 180 298 272 270" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+</svg>

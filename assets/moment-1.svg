@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="小新拿玫瑰第一次对 Lulu 心动">
+  <rect width="320" height="320" rx="24" fill="#fff7fb"/>
+  <text x="160" y="48" text-anchor="middle" font-size="30" font-weight="800" fill="#ef9fbd" font-family="Comic Sans MS, Arial">Love</text>
+  <g stroke="#211716" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="94" cy="126" r="48" fill="#ffc1a6"/>
+    <path d="M58 92 C82 58 134 62 156 92 C122 80 88 82 58 92Z" fill="#080606"/>
+    <path d="M52 119 C70 102 94 102 110 119"/>
+    <path d="M116 119 C138 102 160 104 174 122"/>
+    <circle cx="82" cy="140" r="10" fill="#080606"/>
+    <circle cx="138" cy="140" r="10" fill="#080606"/>
+    <path d="M50 178 L150 178 L162 276 L38 276Z" fill="#b9c8cf"/>
+    <g transform="translate(10 134)">
+      <circle cx="28" cy="32" r="16" fill="#ef5b83"/>
+      <circle cx="56" cy="20" r="17" fill="#f48aa8"/>
+      <circle cx="80" cy="36" r="16" fill="#ef5b83"/>
+      <path d="M44 52 L30 96 M68 52 L88 98" stroke="#ffb8d0"/>
+    </g>
+    <circle cx="232" cy="130" r="44" fill="#ffd7ca"/>
+    <path d="M188 94 C218 64 258 66 284 96 C252 84 220 84 188 94Z" fill="#6a3a2e"/>
+    <path d="M190 178 C160 214 152 252 148 292 L304 292 C300 246 288 210 260 178 C238 196 212 196 190 178Z" fill="#fff"/>
+    <circle cx="216" cy="136" r="8" fill="#171313"/>
+    <circle cx="252" cy="136" r="8" fill="#171313"/>
+  </g>
+  <path d="M184 70 C184 48 216 48 216 72 C216 98 184 114 184 114 C184 114 152 98 152 72 C152 48 184 48 184 70Z" fill="#f05f75"/>
+</svg>

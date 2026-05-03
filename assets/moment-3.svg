@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="小新向 Lulu 新娘求婚">
+  <rect width="320" height="320" rx="24" fill="#fff7df"/>
+  <text x="160" y="44" text-anchor="middle" font-size="28" font-weight="800" fill="#ef9fbd" font-family="Comic Sans MS, Arial">Marry me</text>
+  <g stroke="#211716" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="84" cy="132" r="40" fill="#ffc1a6"/>
+    <path d="M52 106 C72 80 114 82 134 106 C106 98 78 98 52 106Z" fill="#080606"/>
+    <path d="M44 174 L126 174 L138 262 L32 262Z" fill="#b9c8cf"/>
+    <path d="M124 202 C154 192 174 170 188 144" fill="none" stroke="#ffc1a6" stroke-width="12"/>
+    <circle cx="196" cy="138" r="15" fill="none" stroke="#f2b33d" stroke-width="7"/>
+    <path d="M184 114 L208 114 L216 130 L196 144 L176 130Z" fill="#fff" stroke="#f2b33d"/>
+    <circle cx="232" cy="132" r="44" fill="#ffd7ca"/>
+    <path d="M192 98 C222 68 266 70 294 102 C260 88 224 88 192 98Z" fill="#6a3a2e"/>
+    <path d="M196 176 C166 214 158 252 154 296 L316 296 C310 250 300 214 272 176 C248 196 220 196 196 176Z" fill="#fff"/>
+    <path d="M196 82 C230 52 280 58 306 96 C282 116 270 150 270 184" fill="none" stroke="#fff" stroke-width="16"/>
+    <circle cx="216" cy="136" r="8" fill="#171313"/>
+    <circle cx="252" cy="136" r="8" fill="#171313"/>
+  </g>
+  <path d="M60 286 C118 268 180 298 272 270" fill="none" stroke="#efa5c1" stroke-width="8" stroke-linecap="round"/>
+</svg>
