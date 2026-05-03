@@ -12,7 +12,7 @@
     <title>yh & hy 的求婚信</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="content-locked">
     <main class="page" id="top">
       <section class="hero">
         <img class="hero__image hero__image--photo" src="./assets/couple-hero.jpg" alt="yh & hy 的求婚参考配图" />
@@ -22,81 +22,95 @@
           <p class="hero__text">
             平时看起来有点调皮，可这一次，yh 把花、戒指和满满的真心都准备好了。
           </p>
-          <a class="hero__button" href="#letter">打开求婚信</a>
+          <a class="hero__button" id="openLetter" href="#letter">打开求婚信</a>
+        </div>
+        <div class="open-effect" id="openEffect" aria-hidden="true">
+          <div class="open-effect__envelope">
+            <div class="open-effect__paper"></div>
+            <div class="open-effect__flap"></div>
+            <div class="open-effect__front"></div>
+            <span>yh & hy</span>
+          </div>
+          <div class="open-effect__letter">
+            <p>To hy</p>
+            <strong>嫁给我，好吗？</strong>
+          </div>
         </div>
       </section>
 
-      <section class="letter" id="letter">
-        <p class="section-kicker">To hy</p>
-        <p>
-          三年前的今天。我们像两颗行星，找到了彼此的轨道。
-        </p>
-        <p>
-          这个世界很大，如果没有缘分，我们不会遇见。别人再好都与我无关，我只知道你在，我便心安。虽然我有时嘴笨、词不达意，但我真的想和你有很长的未来，一起经历，一起成长。如果可以，我想和你永远在一起。
-        </p>
-        <p>
-          爱你，不是因为一时兴起，而是经过时间沉淀后，我依然确定是你。
-        </p>
-        <p>
-          你怕恋爱会腻，我便早日娶你。
-        </p>
-        <p>
-          所以今天，我想对你说——
-        </p>
-        <p>
-          嫁给我，好吗？
-        </p>
-        <p>
-          我想成为你的丈夫，而不仅仅是三年的恋人。从今往后，我的手给你，家给你，一意孤行的未来也给你。
-        </p>
-        <p>
-          等你点头的yh
-        </p>
-      </section>
+      <div class="story" id="story">
+        <section class="letter" id="letter">
+          <p class="section-kicker">To hy</p>
+          <p>
+            <span id="daysSinceMeet">1089</span> 天前。我们像两颗行星，找到了彼此的轨道。
+          </p>
+          <p>
+            这个世界很大，如果没有缘分，我们不会遇见。别人再好都与我无关，我只知道你在，我便心安。虽然我有时嘴笨、词不达意，但我真的想和你有很长的未来，一起经历，一起成长。如果可以，我想和你永远在一起。
+          </p>
+          <p>
+            爱你，不是因为一时兴起，而是经过时间沉淀后，我依然确定是你。
+          </p>
+          <p>
+            你怕恋爱会腻，我便早日娶你。
+          </p>
+          <p>
+            所以今天，我想对你说——
+          </p>
+          <p>
+            嫁给我，好吗？
+          </p>
+          <p>
+            我想成为你的丈夫，而不仅仅是三年的恋人。从今往后，我的手给你，家给你，一意孤行的未来也给你。
+          </p>
+          <p>
+            等你点头的yh
+          </p>
+        </section>
 
-      <section class="moments" aria-label="yh 和 hy 的回忆">
-        <article class="moment">
-          <img src="./assets/romance-first-meet.svg" alt="第一次见面时害羞心动的配图" />
-          <div>
-            <span>01</span>
-            <h3>第一次心动</h3>
-            <p>第一次见到 hy 的时候，yh 明明有很多话想说，却害羞得没敢开口，只把心动悄悄藏在了心里。</p>
-          </div>
-        </article>
-        <article class="moment">
-          <img src="./assets/romance-sunset.svg" alt="粉色晚霞和爱心配图" />
-          <div>
-            <span>02</span>
-            <h3>一起走过的路</h3>
-            <p>一起走路、一起看风景、一起把平凡的小事过成了彩色蜡笔画。</p>
-          </div>
-        </article>
-        <article class="moment">
-          <img src="./assets/romance-ring.svg" alt="戒指和花束配图" />
-          <div>
-            <span>03</span>
-            <h3>想给你的未来</h3>
-            <p>以后不只送你小饼干，还想把偏爱、陪伴和每个明天都送给你。</p>
-          </div>
-        </article>
-      </section>
+        <section class="moments" aria-label="yh 和 hy 的回忆">
+          <article class="moment">
+            <img src="./assets/romance-first-meet.svg" alt="第一次见面时害羞心动的配图" />
+            <div>
+              <span>01</span>
+              <h3>第一次心动</h3>
+              <p>第一次见到 hy 的时候，yh 明明有很多话想说，却害羞得没敢开口，只把心动悄悄藏在了心里。</p>
+            </div>
+          </article>
+          <article class="moment">
+            <img src="./assets/romance-sunset.svg" alt="粉色晚霞和爱心配图" />
+            <div>
+              <span>02</span>
+              <h3>一起走过的路</h3>
+              <p>一起走路、一起看风景、一起把平凡的小事过成了彩色蜡笔画。</p>
+            </div>
+          </article>
+          <article class="moment">
+            <img src="./assets/romance-ring.svg" alt="戒指和花束配图" />
+            <div>
+              <span>03</span>
+              <h3>想给你的未来</h3>
+              <p>以后不只送你小饼干，还想把偏爱、陪伴和每个明天都送给你。</p>
+            </div>
+          </article>
+        </section>
 
-      <section class="promise">
-        <p class="section-kicker">My promise</p>
-        <h2>yh 会一直认真喜欢 hy</h2>
-        <ul>
-          <li>你开心的时候，陪你一起笑得更大声。</li>
-          <li>你难过的时候，把肩膀和抱抱都留给你。</li>
-          <li>以后的每一天，都把最特别的喜欢留给 hy。</li>
-        </ul>
-      </section>
+        <section class="promise">
+          <p class="section-kicker">My promise</p>
+          <h2>yh 会一直认真喜欢 hy</h2>
+          <ul>
+            <li>你开心的时候，陪你一起笑得更大声。</li>
+            <li>你难过的时候，把肩膀和抱抱都留给你。</li>
+            <li>以后的每一天，都把最特别的喜欢留给 hy。</li>
+          </ul>
+        </section>
 
-      <section class="proposal">
-        <img class="proposal__photo" src="./assets/romance-proposal.svg" alt="求婚戒指和花束配图" />
-        <p>所以，yh 想认真地问 hy 一句：</p>
-        <h2>hy，你愿意嫁给 yh 吗？</h2>
-        <button class="yes-button" type="button" id="yesButton">我愿意</button>
-      </section>
+        <section class="proposal">
+          <img class="proposal__photo" src="./assets/romance-proposal.svg" alt="求婚戒指和花束配图" />
+          <p>所以，yh 想认真地问 hy 一句：</p>
+          <h2>hy，你愿意嫁给 yh 吗？</h2>
+          <button class="yes-button" type="button" id="yesButton">我愿意</button>
+        </section>
+      </div>
     </main>
 
     <div class="modal" id="modal" aria-hidden="true">

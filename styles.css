@@ -34,6 +34,18 @@ body.modal-open {
   overflow: hidden;
 }
 
+body.content-locked {
+  overflow: hidden;
+}
+
+body.content-locked .story {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(28px);
+  pointer-events: none;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -55,6 +67,11 @@ a {
   display: grid;
   align-content: end;
   background: #fff;
+  transition: min-height 0.9s ease, padding 0.9s ease;
+}
+
+body.content-open .hero {
+  min-height: 76svh;
 }
 
 .hero__image {
@@ -70,6 +87,12 @@ a {
   object-position: center 42%;
   padding: 18px 10px 130px;
   background: #fff;
+  transition: padding 0.9s ease, object-position 0.9s ease, opacity 0.9s ease;
+}
+
+body.content-open .hero__image--photo {
+  object-position: center 34%;
+  padding-bottom: 210px;
 }
 
 .hero::after {
@@ -85,6 +108,12 @@ a {
   max-width: 560px;
   color: var(--ink);
   text-shadow: 0 2px 16px rgba(255, 255, 255, 0.72);
+  transition: opacity 0.36s ease, transform 0.36s ease;
+}
+
+.hero.is-opening .hero__content {
+  opacity: 0;
+  transform: translateY(12px);
 }
 
 .eyebrow,
@@ -139,6 +168,117 @@ h1 {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.hero__button.is-busy {
+  pointer-events: none;
+  opacity: 0.78;
+}
+
+.open-effect {
+  position: fixed;
+  inset: 0;
+  z-index: 8;
+  display: none;
+  place-items: center;
+  padding: 28px;
+  background: rgba(255, 239, 246, 0.72);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+.open-effect.is-active {
+  display: grid;
+}
+
+.open-effect__envelope {
+  position: relative;
+  width: min(76vw, 330px);
+  aspect-ratio: 1.38;
+  transform-style: preserve-3d;
+  animation: envelopeFloat 2.35s ease forwards;
+}
+
+.open-effect__front,
+.open-effect__flap,
+.open-effect__paper {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+}
+
+.open-effect__paper {
+  inset: 8% 10% 18%;
+  background: linear-gradient(180deg, #fffef9, #fff7fb);
+  box-shadow: 0 12px 34px rgba(155, 49, 75, 0.16);
+  transform: translateY(28%);
+  animation: paperRise 2.35s ease forwards;
+}
+
+.open-effect__front {
+  background:
+    linear-gradient(140deg, transparent 50%, #ffd0df 50.5%),
+    linear-gradient(220deg, transparent 50%, #ffc2d7 50.5%),
+    linear-gradient(180deg, #ffe2ec, #ffc9db);
+  border: 2px solid rgba(189, 49, 95, 0.22);
+  box-shadow: 0 24px 54px rgba(155, 49, 75, 0.2);
+}
+
+.open-effect__flap {
+  transform-origin: 50% 0%;
+  background: linear-gradient(160deg, #ffe9f0 50%, transparent 50.6%);
+  border-top: 2px solid rgba(189, 49, 95, 0.18);
+  animation: flapOpen 2.35s ease forwards;
+}
+
+.open-effect__envelope span {
+  position: absolute;
+  left: 50%;
+  bottom: 24%;
+  z-index: 2;
+  transform: translateX(-50%);
+  color: var(--rose-dark);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.open-effect__letter {
+  position: absolute;
+  width: min(82vw, 390px);
+  min-height: 240px;
+  padding: 34px 26px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  color: var(--rose-dark);
+  background:
+    linear-gradient(90deg, rgba(239, 91, 131, 0.08) 1px, transparent 1px) 0 0 / 22px 22px,
+    linear-gradient(180deg, #fffef9, #fff7fb);
+  box-shadow: 0 28px 70px rgba(155, 49, 75, 0.24);
+  opacity: 0;
+  transform: translateY(42px) scale(0.82);
+  animation: letterUnfold 2.35s ease forwards;
+}
+
+.open-effect__letter p {
+  margin-bottom: 12px;
+  color: var(--rose);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.open-effect__letter strong {
+  font-size: clamp(28px, 8vw, 42px);
+  line-height: 1.25;
+}
+
+.story {
+  max-height: 5000px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.9s ease 0.08s, transform 0.9s ease 0.08s, max-height 0.9s ease;
 }
 
 .letter,
@@ -237,6 +377,12 @@ h1 {
   box-shadow: 0 12px 30px rgba(85, 45, 43, 0.12);
 }
 
+.proposal .proposal__ring {
+  width: min(58vw, 210px);
+  margin-bottom: 14px;
+  filter: drop-shadow(0 14px 22px rgba(155, 49, 75, 0.16));
+}
+
 .proposal h2 {
   margin-bottom: 22px;
   color: var(--rose-dark);
@@ -302,6 +448,91 @@ h1 {
   }
 }
 
+@keyframes flapOpen {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  34%,
+  100% {
+    transform: rotateX(178deg);
+  }
+}
+
+@keyframes paperRise {
+  0% {
+    opacity: 0;
+    transform: translateY(30%) scale(0.92);
+  }
+
+  26% {
+    opacity: 1;
+    transform: translateY(-34%) scale(1);
+  }
+
+  62%,
+  100% {
+    opacity: 0;
+    transform: translateY(-72%) scale(1.08);
+  }
+}
+
+@keyframes letterUnfold {
+  0%,
+  38% {
+    opacity: 0;
+    transform: translateY(42px) scale(0.82);
+  }
+
+  58% {
+    opacity: 1;
+    transform: translateY(-6px) scale(0.9);
+  }
+
+  78% {
+    opacity: 1;
+    transform: translateY(-6px) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-18px) scale(1.04);
+  }
+}
+
+@keyframes envelopeFloat {
+  0% {
+    opacity: 0;
+    transform: translateY(22px) scale(0.88);
+  }
+
+  14% {
+    opacity: 1;
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(34px) scale(0.92);
+  }
+}
+
+@keyframes storyEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 380px) {
   .moment {
     grid-template-columns: 92px 1fr;
@@ -310,5 +541,38 @@ h1 {
 
   .moment img {
     width: 92px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero {
+    min-height: 100svh;
+    padding-bottom: max(34px, env(safe-area-inset-bottom));
+  }
+
+  .hero__image--photo {
+    object-position: center 26%;
+    padding: 12px 8px 270px;
+  }
+
+  body.content-open .hero {
+    min-height: 82svh;
+  }
+
+  body.content-open .hero__image--photo {
+    object-position: center 20%;
+    padding-bottom: 320px;
+  }
+
+  .hero::after {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 246, 250, 0.18) 42%, rgba(255, 230, 239, 0.98) 78%);
+  }
+
+  .hero__content {
+    max-width: 21rem;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 8px;
   }
 }
