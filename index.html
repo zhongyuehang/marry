@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="content-locked">
+    <audio id="bgMusic" src="./assets/my-declaration.mp3" preload="auto" loop></audio>
     <main class="page" id="top">
       <section class="hero">
         <img class="hero__image hero__image--photo" src="./assets/couple-hero.jpg" alt="yh & hy 的求婚参考配图" />
         <div class="hero__content">
           <p class="eyebrow">yh & hy</p>
-          <h1>yh 想把最认真的喜欢，说给 hy 听</h1>
+          <h1>想把最认真的喜欢，说给你听</h1>
           <p class="hero__text">
-            平时看起来有点调皮，可这一次，yh 把花、戒指和满满的真心都准备好了。
+            平时看起来有点调皮，可这一次，我把花、戒指和满满的真心都准备好了。
           </p>
           <a class="hero__button" id="openLetter" href="#letter">打开求婚信</a>
         </div>
@@ -42,7 +43,7 @@
         <section class="letter" id="letter">
           <p class="section-kicker">To hy</p>
           <p>
-            <span id="daysSinceMeet">1089</span> 天前。我们像两颗行星，找到了彼此的轨道。
+            <span id="daysSinceMeet">1089</span> 天前，我们像两颗行星，找到了彼此的轨道。
           </p>
           <p>
             这个世界很大，如果没有缘分，我们不会遇见。别人再好都与我无关，我只知道你在，我便心安。虽然我有时嘴笨、词不达意，但我真的想和你有很长的未来，一起经历，一起成长。如果可以，我想和你永远在一起。
@@ -63,7 +64,7 @@
             我想成为你的丈夫，而不仅仅是三年的恋人。从今往后，我的手给你，家给你，一意孤行的未来也给你。
           </p>
           <p>
-            等你点头的yh
+	  <b>等你点头的yh</b>
           </p>
         </section>
 
@@ -73,7 +74,7 @@
             <div>
               <span>01</span>
               <h3>第一次心动</h3>
-              <p>第一次见到 hy 的时候，yh 明明有很多话想说，却害羞得没敢开口，只把心动悄悄藏在了心里。</p>
+              <p>第一次见到你的时候，明明有很多话想说，却害羞得没敢开口，只把心动悄悄藏在了心里。</p>
             </div>
           </article>
           <article class="moment">
@@ -95,19 +96,19 @@
         </section>
 
         <section class="promise">
-          <p class="section-kicker">My promise</p>
-          <h2>yh 会一直认真喜欢 hy</h2>
+          <p class="section-kicker">MY PROMISE</p>
+          <h2>会一直认真爱你</h2>
           <ul>
             <li>你开心的时候，陪你一起笑得更大声。</li>
             <li>你难过的时候，把肩膀和抱抱都留给你。</li>
-            <li>以后的每一天，都把最特别的喜欢留给 hy。</li>
+            <li>以后的每一天，都把最特别的喜欢留给你。</li>
           </ul>
         </section>
 
         <section class="proposal">
-          <img class="proposal__photo" src="./assets/romance-proposal.svg" alt="求婚戒指和花束配图" />
-          <p>所以，yh 想认真地问 hy 一句：</p>
-          <h2>hy，你愿意嫁给 yh 吗？</h2>
+          <img class="proposal__photo" src="./assets/proposal-roses-ring.jpg" alt="玫瑰花和求婚戒指配图" />
+          <p>所以，我想认真地问你：</p>
+          <h2>hy，你愿意嫁给我吗？</h2>
           <button class="yes-button" type="button" id="yesButton">我愿意</button>
         </section>
       </div>
@@ -120,6 +121,10 @@
         <button type="button" id="closeModal">收下这枚戒指</button>
       </div>
     </div>
+
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="播放音乐" aria-pressed="false">
+      <span class="music-toggle__icon">♪</span>
+    </button>
 
     <script src="./script.js"></script>
   </body>

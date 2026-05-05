@@ -123,7 +123,6 @@ body.content-open .hero__image--photo {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0;
-  text-transform: uppercase;
 }
 
 .hero .eyebrow {
@@ -430,6 +429,32 @@ h1 {
   line-height: 1.75;
 }
 
+.music-toggle {
+  position: fixed;
+  right: 18px;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 9;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: linear-gradient(135deg, var(--rose), var(--rose-dark));
+  box-shadow: 0 12px 28px rgba(155, 49, 75, 0.26);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.music-toggle.is-playing .music-toggle__icon {
+  animation: musicSpin 3.5s linear infinite;
+}
+
+.music-toggle:not(.is-playing) {
+  opacity: 0.72;
+}
+
 .confetti {
   position: fixed;
   top: -14px;
@@ -445,6 +470,12 @@ h1 {
   to {
     transform: translate3d(var(--drift), 105vh, 0) rotate(720deg);
     opacity: 0;
+  }
+}
+
+@keyframes musicSpin {
+  to {
+    transform: rotate(360deg);
   }
 }
 

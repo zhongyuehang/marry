@@ -3,12 +3,39 @@ const openEffect = document.querySelector("#openEffect");
 const letter = document.querySelector("#letter");
 const hero = document.querySelector(".hero");
 const daysSinceMeet = document.querySelector("#daysSinceMeet");
+const bgMusic = document.querySelector("#bgMusic");
+const musicToggle = document.querySelector("#musicToggle");
 const yesButton = document.querySelector("#yesButton");
 const modal = document.querySelector("#modal");
 const closeModal = document.querySelector("#closeModal");
 
 const colors = ["#c84f67", "#d7a83c", "#7fb59d", "#f2a8a1", "#ffffff"];
 let hasOpenedLetter = false;
+
+function syncMusicButton() {
+  const isPlaying = !bgMusic.paused;
+  musicToggle.classList.toggle("is-playing", isPlaying);
+  musicToggle.setAttribute("aria-pressed", String(isPlaying));
+  musicToggle.setAttribute("aria-label", isPlaying ? "暂停音乐" : "播放音乐");
+}
+
+async function playMusic() {
+  try {
+    await bgMusic.play();
+    syncMusicButton();
+  } catch {
+    syncMusicButton();
+  }
+}
+
+function toggleMusic() {
+  if (bgMusic.paused) {
+    playMusic();
+  } else {
+    bgMusic.pause();
+    syncMusicButton();
+  }
+}
 
 function updateDaysSinceMeet() {
   const startDate = new Date(2023, 4, 11);
@@ -54,6 +81,7 @@ function revealLetter(event) {
   }
 
   hasOpenedLetter = true;
+  playMusic();
   openLetter.classList.add("is-busy");
   hero.classList.add("is-opening");
   openEffect.classList.add("is-active");
@@ -68,7 +96,11 @@ function revealLetter(event) {
 }
 
 updateDaysSinceMeet();
+syncMusicButton();
 openLetter.addEventListener("click", revealLetter);
+musicToggle.addEventListener("click", toggleMusic);
+bgMusic.addEventListener("play", syncMusicButton);
+bgMusic.addEventListener("pause", syncMusicButton);
 yesButton.addEventListener("click", openModal);
 closeModal.addEventListener("click", closeModalPanel);
 modal.addEventListener("click", (event) => {
